@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>&lt;model-viewer&gt; example</title>
@@ -50,9 +50,9 @@
     -->
     
     <div class="demo" style="background: linear-gradient(#ffffff, #ada996);">
-    <!-- onclick = "GFG_Fun()"
+     onclick = "GFG_Fun()"
     <a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/hiren-hk/hiren-hk.github.io/master/MailStorageO365_Final/Mail_Storage_O365.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">
-    -->
+    
       
     <model-viewer src="./MailStorageO365_Final/Mail_storage_O365.glb"
                   ios-src="./MailStorageO365_Final/Mail_storage_O365.usdz"
@@ -61,9 +61,9 @@
                   autoplay ar
                   style="background-color: unset;">
       
-      <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+      <!-- <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
           Activate AR
-      </button>
+      </button>-->
       
     </model-viewer>
       <!--
@@ -78,7 +78,7 @@
             var Android = userAgent.indexOf("android") > -1; 
               
             if(Android) { 
-                location.href = "intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/hiren-hk/hiren-hk.github.io/master/MailStorageO365_Final/Mail_Storage_O365.gltf#Intent;scheme=https;package=com.google.android.googlequicksearchbox;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;"; 
+                location.a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;">Avocado</a>;
             }
         } 
     </script>
